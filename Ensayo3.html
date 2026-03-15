@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Contacto - Únete a GameZone</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul id="topnav">
+                <li><a href="Intento5.html">Inicio</a></li>
+                <li><a href="Ensayo1.html">Lanzamientos</a></li>
+                <li><a href="ensayo2.html">Reseñas</a></li>
+                <li><a href="Ensayo3.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="container">
+        <section>
+            <h2>¿Tienes dudas? Escríbenos</h2>
+            
+            <form action="http://endor.josedomingo.org/josedom/resultado.php" method="post">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <p>
+                        <label for="nombre">Nombre completo:</label><br>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+                    <p>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="email" placeholder="ejemplo@correo.com">
+                    </p>
+                    <p>
+                        <label for="mensaje">Tu mensaje:</label><br>
+                        <textarea id="mensaje" name="comentarios" rows="5"></textarea>
+                    </p>
+                    <button type="submit">Enviar a Servidor</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GameZone Pro. Validado por W3C.</p>
+    </footer>
+</body>
+</html>
